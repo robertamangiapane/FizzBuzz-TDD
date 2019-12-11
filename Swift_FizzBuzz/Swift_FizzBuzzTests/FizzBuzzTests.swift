@@ -49,5 +49,10 @@ class Swift_FizzBuzzTests: XCTestCase {
         let result = fizzbuzz(number: 10)
         XCTAssertEqual(result, "Buzz")
     }
+    
+    func testReturnFizzBuzzWithNumber15() {
+        let result = fizzbuzz(number: 15)
+        XCTAssertEqual(result, "FizzBuzz")
+    }
 
 }
