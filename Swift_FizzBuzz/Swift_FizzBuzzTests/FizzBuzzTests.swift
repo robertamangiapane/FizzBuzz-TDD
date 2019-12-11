@@ -23,15 +23,13 @@ class Swift_FizzBuzzTests: XCTestCase {
     func testReturnNumber1() {
         let result = fizzbuzz(number: 1)
         XCTAssertEqual(result, 1)
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-//    func testPerformanceExample() {
-//        // This is an example of a performance test case.
-//        self.measure {
-//            // Put the code you want to measure the time of here.
-//        }
-//    }
+    func testReturnnumber2() {
+        let result = fizzbuzz(number: 2)
+        XCTAssertEqual(result, 2)
+    }
+    
+    
 
 }
