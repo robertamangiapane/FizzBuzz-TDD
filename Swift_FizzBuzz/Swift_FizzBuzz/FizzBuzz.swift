@@ -8,7 +8,11 @@
 
 import Foundation
     
-    func fizzbuzz(number: Int) -> Int {
-        return number
+    func fizzbuzz(number: Int) -> String {
+        if number == 3 {
+            return "Fizz"
+        } else {
+            return String(number)
+        }
     }
     

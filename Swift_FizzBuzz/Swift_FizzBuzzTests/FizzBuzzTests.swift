@@ -22,14 +22,17 @@ class Swift_FizzBuzzTests: XCTestCase {
 
     func testReturnNumber1() {
         let result = fizzbuzz(number: 1)
-        XCTAssertEqual(result, 1)
+        XCTAssertEqual(result, "1")
     }
 
-    func testReturnnumber2() {
+    func testReturnNumber2() {
         let result = fizzbuzz(number: 2)
-        XCTAssertEqual(result, 2)
+        XCTAssertEqual(result, "2")
     }
     
-    
+    func testReturnFizz() {
+        let result = fizzbuzz(number: 3)
+        XCTAssertEqual(result, "Fizz")
+    }
 
 }
